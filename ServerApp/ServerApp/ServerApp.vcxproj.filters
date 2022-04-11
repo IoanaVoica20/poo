@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DB">
+      <UniqueIdentifier>{4618ac69-f541-4378-84e8-b94b18dd31ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptii">
+      <UniqueIdentifier>{0f1ac358-9f9e-4ee8-8142-0920ccb005dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilizatori">
+      <UniqueIdentifier>{b4533c18-6668-4da9-9a58-b8d537a9923b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptii">
+      <UniqueIdentifier>{a5176194-9784-4eda-bc7b-d0e6f121ca18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilizatori">
+      <UniqueIdentifier>{19b8ae15-fece-4be1-bc00-d26f1d230bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DB">
+      <UniqueIdentifier>{05174394-ceb0-4f20-8111-d65870f30055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stuff">
+      <UniqueIdentifier>{9db3ee67-3115-41d0-bb11-404c38e72c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stuff">
+      <UniqueIdentifier>{4f742873-4bac-46ec-b506-5d209bcef38f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ServerApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Exceptions.cpp">
+      <Filter>Source Files\Exceptii</Filter>
+    </ClCompile>
+    <ClCompile Include="I_Exceptions.cpp">
+      <Filter>Source Files\Exceptii</Filter>
+    </ClCompile>
+    <ClCompile Include="DB_Exceptions.cpp">
+      <Filter>Source Files\Exceptii</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Utilizator.cpp">
+      <Filter>Source Files\Utilizatori</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Utilizatori</Filter>
+    </ClCompile>
+    <ClCompile Include="I_Utilizator.cpp">
+      <Filter>Source Files\Utilizatori</Filter>
+    </ClCompile>
+    <ClCompile Include="Data_Access_Layer.cpp">
+      <Filter>Source Files\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler.cpp">
+      <Filter>Source Files\Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Source Files\Stuff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Data_Access_Layer.h">
+      <Filter>Header Files\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="A_Exceptions.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Exceptions.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+    <ClInclude Include="DB_Exceptions.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+    <ClInclude Include="A_Utilizator.h">
+      <Filter>Header Files\Utilizatori</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Utilizatori</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Utilizator.h">
+      <Filter>Header Files\Utilizatori</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Header Files\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Utile.h">
+      <Filter>Header Files\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler.h">
+      <Filter>Header Files\Stuff</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
